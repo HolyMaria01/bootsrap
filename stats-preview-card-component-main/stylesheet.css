@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: hsl(277, 64%, 61%);
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: outset;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.huerotate {filter: hue-rotate(180deg);}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;}
